@@ -12,18 +12,25 @@
   <style>
     body{
       background-color: hsl(212, 45%, 89%);
+      min-height: 100vh;
+      display: grid;
+      align-items: center;
     }
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; 
+    }
     .attribution a { color: hsl(228, 45%, 44%); }
     .container{
      width:22%;
     background-color: hsl(0, 0%, 100%);
     box-shadow: hsl(212, 45%, 89%); 
     padding: 8px;
-    float: left;
     margin: 10px;
     margin-bottom: 25px;
     border-radius: 5px;
+   position: absolute;
+   top: 50%;
+   left: 40%;
+
   
     }
     div.description{
@@ -35,13 +42,15 @@
 </head>
 <body>
   <div class="container">
-  <img src="image-qr-code.png" width="300">
+  <img src="image-qr-code.png" alt="Qr code reader"width="300">
   <div class="description"> <p><b>Improve your front-end skills by building projects</b>
 </p>
 <p>Scan the QR to visit Frontend Mentor and take your coding skills to the next level</p></div>
 </div>  
 </div> 
 
+
+ 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Bimme Audrey</a>.
